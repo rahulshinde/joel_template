@@ -61,7 +61,8 @@ table {
   font-weight: 300;
   font-style: normal; }
 #site {
-  overflow: hidden;
+  height: 100%;
+  overflow-y: hidden;
   font-family: 'HelveticaNeue';
   background-color: #000;
   color: #fff;
