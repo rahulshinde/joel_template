@@ -61,7 +61,6 @@ table {
   font-weight: 300;
   font-style: normal; }
 html, body {
-  height: 100vh;
   overflow: hidden; }
 
 #site {
@@ -115,5 +114,9 @@ html, body {
     line-height: 1.25em;
     transform: translateY(-48%);
     -webkit-transform: translateY(-48%); }
+
+@media (max-width: 600px) {
+  .background_img {
+    height: 90vh; } }
 
 /*# sourceMappingURL=main.css.map */
