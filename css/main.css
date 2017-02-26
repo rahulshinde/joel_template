@@ -114,7 +114,9 @@ table {
     -webkit-transform: translateY(-50%); }
 
 @media (max-width: 550px) {
-  #site .background_img {
-    height: 75vh; } }
+  #site {
+    overflow: hidden; }
+    #site .background_img {
+      height: 75vh; } }
 
 /*# sourceMappingURL=main.css.map */
