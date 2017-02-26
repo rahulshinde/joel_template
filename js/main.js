@@ -4,7 +4,7 @@ $(document).ready( function(){
   // root size
 
   if ($(window).width() > $(window).height()){
-    root_size = '11vh';
+    root_size = '10.2vh';
   }else{
     root_size = '10.5vw';
   }
@@ -26,7 +26,7 @@ $(document).ready( function(){
 
 changeRootFontSize = function() {
   if ($(window).width() > $(window).height()){
-    root_size = '11vh';
+    root_size = '10.2vh';
   }else{
     root_size = '10.5vw';
   }
