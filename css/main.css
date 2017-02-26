@@ -61,6 +61,7 @@ table {
   font-weight: 300;
   font-style: normal; }
 html, body {
+  height: 100%;
   overflow: hidden; }
 
 #site {
@@ -116,7 +117,9 @@ html, body {
     -webkit-transform: translateY(-48%); }
 
 @media (max-width: 600px) {
-  .background_img {
-    height: 90vh; } }
+  #site .background_detect {
+    display: none; }
+  #site .background_img {
+    height: 88vh; } }
 
 /*# sourceMappingURL=main.css.map */
