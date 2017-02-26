@@ -20,6 +20,10 @@ $(document).ready( function(){
     $('h1').removeClass('under');
   });
 
+  $('.background_detect2').click(function(){
+    $('h1').toggleClass('under');
+  });
+
   randomImageLoad();
   backgroundDetectSetup();
 })

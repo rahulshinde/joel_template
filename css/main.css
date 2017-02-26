@@ -108,6 +108,13 @@ html, body {
     top: 4vh;
     height: 92vh;
     z-index: 1000; }
+  #site .background_detect2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; }
   #site h1 {
     font-family: 'HelveticaNeue';
     position: fixed;
@@ -129,6 +136,8 @@ html, body {
   #site .background_img {
     height: 79vh; }
   #site .background_detect {
-    display: none; } }
+    display: none; }
+  #site .background_detect2 {
+    display: block; } }
 
 /*# sourceMappingURL=main.css.map */
