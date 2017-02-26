@@ -65,6 +65,10 @@ table {
   background-color: #000;
   color: #fff;
   text-align: center; }
+  #site a:link,
+  #site a:visited {
+    color: #fff;
+    text-decoration: none; }
   #site .background_img {
     display: none;
     position: relative;
