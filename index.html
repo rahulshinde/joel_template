@@ -10,7 +10,15 @@
 
   <body id="site">
 
+    <div class="background_detect"></div> <!-- desktop hover/click detector -->
+    <div class="background_detect2"></div> <!-- mobile click detector -->
+
     <div id="background_container">
+
+      <!-- Just wrap each image in a div with the class background_img
+           U can have any number of images, javascript will be able to
+           detect that and thenadjust the slideshow / randomize functions on page load -->
+
       <div class="background_img">
         <img src="img/1.jpg">
       </div>
@@ -26,12 +34,10 @@
       <div class="background_img">
         <img src="img/JE_WEB.jpg">
       </div>
-    </div>
 
-    <div class="background_detect"></div>
-    <div class="background_detect2"></div>
+    </div> <!-- end background container -->
     
-
+    <!-- H1 has to be seven lines to fit viewport height -->
     <h1>
       Joel Evey
       <br>
