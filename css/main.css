@@ -108,6 +108,8 @@ html, body {
     top: 4vh;
     height: 92vh;
     z-index: 1000; }
+    #site .background_detect:hover {
+      cursor: pointer; }
   #site .background_detect2 {
     display: none;
     position: fixed;

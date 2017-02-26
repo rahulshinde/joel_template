@@ -20,12 +20,20 @@ $(document).ready( function(){
     $('h1').removeClass('under');
   });
 
-  $('.background_detect2').click(function(){
-    $('h1').toggleClass('under');
+  $('.background_detect').on('click', function(){
+    nextSlide();
+    backgroundDetectSetup();
   });
 
+  $('.background_detect2').on('click', function(){
+    $('h1').toggleClass('under');
+  }); 
+
   randomImageLoad();
-  backgroundDetectSetup();
+
+  setTimeout(function(){
+    backgroundDetectSetup()
+  }, 250);
 })
 
 changeRootFontSize = function() {
@@ -38,11 +46,27 @@ changeRootFontSize = function() {
 }
 
 randomImageLoad = function(){
-  var logo = $('.background_img');
-  var logo_length = $('.background_img').length;
-  var logo_choice = Math.floor((Math.random() * logo_length) + 0);
+  Site.logo = $('.background_img');
+  Site.logo_length = $('.background_img').length;
+  Site.logo_choice = Math.floor((Math.random() * Site.logo_length) + 0);
 
-  var logo_show = logo[logo_choice];
+  var logo_show = Site.logo[Site.logo_choice];
+  $(logo_show).addClass('show');
+
+  setupSlideShow();
+}
+
+setupSlideShow = function(){
+  Site.slide_position = Site.logo_choice;
+}
+
+nextSlide = function(){
+  Site.slide_position = Site.slide_position + 1;
+  if (Site.slide_position >= Site.logo_length){
+    Site.slide_position = 0;
+  }
+  $('.background_img').removeClass('show');
+  var logo_show = Site.logo[Site.slide_position];
   $(logo_show).addClass('show');
 }
 
