@@ -24,6 +24,10 @@ $(document).ready( function(){
     $('h1').toggleClass('under');
   });
 
+  $(".background_detect2").on("swipe",function(){
+    $('h1').toggleClass('under');
+  });
+
   randomImageLoad();
   backgroundDetectSetup();
 })
