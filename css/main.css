@@ -61,10 +61,10 @@ table {
   font-weight: 300;
   font-style: normal; }
 html, body {
+  height: 100vh;
   overflow: hidden; }
 
 #site {
-  height: 100%;
   overflow: hidden;
   font-family: 'HelveticaNeue';
   background-color: #000;
