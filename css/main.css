@@ -115,11 +115,6 @@ table {
 
 @media (max-width: 550px) {
   html, body {
-    overflow: hidden; }
-
-  #site {
-    overflow: hidden; }
-    #site .background_img {
-      height: 75vh; } }
+    overflow: hidden; } }
 
 /*# sourceMappingURL=main.css.map */
