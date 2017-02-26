@@ -99,8 +99,8 @@ html, body {
     left: 0;
     right: 0;
     margin: auto;
-    top: 10vh;
-    height: 80vh;
+    top: 4vh;
+    height: 92vh;
     z-index: 1000; }
   #site h1 {
     font-family: 'HelveticaNeue';
