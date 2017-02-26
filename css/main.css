@@ -78,7 +78,7 @@ html, body {
     display: none;
     position: relative;
     width: 100%;
-    top: 4vh;
+    margin-top: 4vh;
     height: 92vh;
     text-align: center;
     overflow: hidden; }
