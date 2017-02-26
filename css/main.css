@@ -79,6 +79,8 @@ html, body {
     top: 4vh;
     bottom: 4vh;
     width: 100%; }
+    #site #background_container.over {
+      z-index: 40; }
   #site .background_img {
     display: none;
     position: relative;
@@ -97,7 +99,7 @@ html, body {
       display: block;
       z-index: -100; }
     #site .background_img.over {
-      z-index: 40; }
+      z-index: 70; }
   #site .background_detect {
     position: fixed;
     left: 0;
@@ -114,10 +116,13 @@ html, body {
     right: 0;
     display: block;
     margin: auto;
+    z-index: 10;
     /*font-size: 3.3rem;*/
     /*font-size: 5.5vw;*/
     line-height: 1.25em;
     transform: translateY(-48%);
     -webkit-transform: translateY(-48%); }
+    #site h1.under {
+      z-index: -40; }
 
 /*# sourceMappingURL=main.css.map */

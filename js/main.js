@@ -13,11 +13,11 @@ $(document).ready( function(){
   $(window).resize(backgroundDetectSetup);
 
   $('.background_detect').mouseover(function(){
-    $('.show').addClass('over');
+    $('h1').addClass('under');
   });
 
   $('.background_detect').mouseout(function(){
-    $('.show').removeClass('over');
+    $('h1').removeClass('under');
   });
 
   randomImageLoad();
