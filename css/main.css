@@ -127,6 +127,8 @@ html, body {
 
 @media (max-width: 600px) {
   #site .background_img {
-    height: 79vh; } }
+    height: 79vh; }
+  #site .background_detect {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
