@@ -125,4 +125,8 @@ html, body {
     #site h1.under {
       z-index: -40; }
 
+@media (max-width: 600px) {
+  #site .background_img {
+    height: 84vh; } }
+
 /*# sourceMappingURL=main.css.map */
