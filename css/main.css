@@ -82,6 +82,7 @@ html, body {
     #site #background_container.over {
       z-index: 40; }
   #site .background_img {
+    display: block;
     position: fixed;
     top: 4vh;
     width: 100%;
