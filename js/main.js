@@ -25,12 +25,8 @@ $(document).ready( function(){
     backgroundDetectSetup();
   });
 
-  $('.background_detect2').on('click', function(){
-    $('h1').toggleClass('under');
-  }); 
-
-  $(window).swipeleft(nextSlide);
-  $(window).swiperight(prevSlide);
+  $('.background_detect2').swipeleft(nextSlide);
+  $('.background_detect2').swiperight(prevSlide);
 
   randomImageLoad();
 
