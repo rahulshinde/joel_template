@@ -12,11 +12,11 @@ $(document).ready( function(){
   $(window).resize(changeRootFontSize);
   $(window).resize(backgroundDetectSetup);
 
-  $('.background_detect').mouseover(function(){
+  $('.background_detect').on('mouseenter', function(){
     $('h1').addClass('under');
   });
 
-  $('.background_detect').mouseout(function(){
+  $('.background_detect').on('mouseleave', function(){
     $('h1').removeClass('under');
   });
 
@@ -28,6 +28,8 @@ $(document).ready( function(){
   $('.background_detect2').on('click', function(){
     $('h1').toggleClass('under');
   }); 
+
+  $(window).swipe(nextSlide);
 
   randomImageLoad();
 

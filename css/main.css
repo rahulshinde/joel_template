@@ -62,7 +62,21 @@ table {
   font-style: normal; }
 html, body {
   height: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none; }
+
+.ui-loader {
+  display: none; }
 
 #site {
   overflow: hidden;
@@ -106,7 +120,7 @@ html, body {
       -o-transform-style: preserve-3d;
       transform-style: preserve-3d; }
     #site .background_img.show {
-      z-index: -100; }
+      z-index: -30; }
       #site .background_img.show img {
         -webkit-transform: translateX(-50%) rotateY(0deg);
         transform: translateX(-50%) rotateY(0deg); }
