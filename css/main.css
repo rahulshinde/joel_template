@@ -104,12 +104,11 @@ html, body {
     text-align: center;
     overflow: hidden; }
     #site .background_img img {
-      position: absolute;
       max-height: 100%;
       width: auto;
       display: inline-block;
-      transform: translateX(-50%) rotateY(180deg);
-      -webkit-transform: translateX(-50%) rotateY(180deg);
+      transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
       backface-visibility: hidden;
       -webkit-backface-visibility: hidden;
       -webkit-transition: transform ease 0.7s;
@@ -122,8 +121,8 @@ html, body {
     #site .background_img.show {
       z-index: -30; }
       #site .background_img.show img {
-        -webkit-transform: translateX(-50%) rotateY(0deg);
-        transform: translateX(-50%) rotateY(0deg); }
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg); }
     #site .background_img.over {
       z-index: 70; }
   #site .background_detect {
