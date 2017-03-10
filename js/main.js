@@ -25,6 +25,10 @@ $(document).ready( function(){
     backgroundDetectSetup();
   });
 
+  $('.background_detect2').on('click', function(){
+    $('h1').toggleClass('under');
+  }); 
+
   $('.background_detect2').swipeleft(nextSlide);
   $('.background_detect2').swiperight(prevSlide);
 
