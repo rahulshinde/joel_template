@@ -12,13 +12,13 @@ $(document).ready( function(){
   $(window).resize(changeRootFontSize);
   $(window).resize(backgroundDetectSetup);
 
-  $('.background_detect').on('mouseenter', function(){
-    $('h1').addClass('under');
-  });
+  // $('.background_detect').on('mouseenter', function(){
+  //   $('h1').addClass('under');
+  // });
 
-  $('.background_detect').on('mouseleave', function(){
-    $('h1').removeClass('under');
-  });
+  // $('.background_detect').on('mouseleave', function(){
+  //   $('h1').removeClass('under');
+  // });
 
   $('.background_detect').on('click', function(){
     nextSlide();
