@@ -26,7 +26,7 @@ $(document).ready( function(){
   });
 
   $('.background_detect2').on('click', function(){
-    $('h1').toggleClass('under');
+    $('.over').toggleClass('hide');
   }); 
 
   $('.background_detect2').swipeleft(nextSlide);

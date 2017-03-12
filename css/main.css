@@ -133,8 +133,8 @@ html, body {
     z-index: 1000; }
     #site .background_detect:hover {
       cursor: pointer; }
-    #site .background_detect:hover + h1 {
-      z-index: -10; }
+    #site .background_detect:hover + .over {
+      display: none; }
   #site .background_detect2 {
     display: none;
     position: fixed;
@@ -158,6 +158,8 @@ html, body {
     -webkit-transform: translateY(-49%);
     -webkit-transition: z-index ease 0s;
     transition: z-index ease 0s; }
+    #site h1.over.hide {
+      display: none; }
     #site h1.under {
       z-index: -1; }
 
